@@ -1,0 +1,21 @@
+name: StoatBridge
+version: '${version}'
+main: mom.fuckers.stoatbridge.StoatBridgePlugin
+api-version: '1.20'
+libraries:
+  - com.github.ben-manes.caffeine:caffeine:3.1.8
+
+commands:
+  localchat:
+    description: Send a message to the server without bridging it to Stoat.
+    aliases: [lc, stoatlocal]
+    permission: stoatbridge.send
+permissions:
+  stoatbridge.view:
+    description: Allows you to see bridge messages from Stoat.
+    default: true
+  stoatbridge.send:
+    description: Allows your messages to be bridged to Stoat.
+    default: true
+author: Antigravity
+description: Bidirectional chat bridge between Minecraft and Stoat/Revolt

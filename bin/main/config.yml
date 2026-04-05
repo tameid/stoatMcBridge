@@ -1,0 +1,11 @@
+stoat:
+  bot_token: ""
+  node_url: "https://api.revolt.chat"
+  node_ws: "wss://ws.revolt.chat"
+  channel_id: ""
+  log_to_console: false
+formatting:
+  minecraft_to_stoat: "**[Minecraft] %player%:** %message%"
+  stoat_to_minecraft: "&8[&dStoat&8] &b%author%&f: %message%"
+  player_join: "**%player% joined the game**"
+  player_quit: "**%player% left the game**"
